@@ -8,7 +8,9 @@ To test intended flow of application
 
 Typical retail producer consumer application
 
-    2)Run the "SpringIntegrationProducer" application where the application produces one message and puts in queue called "order queqe". Now producer application is waiting for response from "SpringIntegrationConsumer" application on "Order response queue"
+    1)Run the "SpringIntegrationProducer" application where the application produces 
+    one message and puts in queue called "order queqe". Now producer application is waiting 
+    for response from "SpringIntegrationConsumer" application on "Order response queue"
 
   2)  Run "RestService" application , which must be utilised by consumer application.
 
